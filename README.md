@@ -6,6 +6,10 @@ Feedback would be much appreciated, questions, suggestions, issues are more than
 
 ![MIT License](https://badgen.net/badge/license/MIT/blue 'MIT License')
 
+#### How it works
+
+When implemented, this navigation component lets you press a hotkey (default: spacebar) which immediately brings up a pie-like navigation component. It tries to center around the mouse center, but adjusts given certain rules so that all options remain visible. While the hotkey is depressed, user can simply move the mouse over the desired zone and release the hotkey. The associated method (typically navigation, but could be anything) will then fire, and the component will hide.
+
 ###### Demo
 
 ![A usage demo gif](https://media.giphy.com/media/Ir7M8IlvsXmx5HkpTv/giphy.gif)
