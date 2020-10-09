@@ -22,7 +22,9 @@ In your own Vue scripts:
 </template>
 
 <script>
+import ApplePie from 'ApplePieNav.vue'
 export default {
+  components: [ApplePie],
   data() {
     return {
       zones: [
@@ -58,3 +60,13 @@ Vue component parameters:
 | **mask** | Integer radius in pixels of the central zone mask circle where actions are ignored. | 70 |
 | **buffer** | How much space to put between the edge of the mask and the zone labels in pixels. | 150 |
 | **margin** | How much of a margin to leave around the inside of the main window so the pie doesn't render too close to the outside which would hide some options. | 300 |
+
+# Dependencies
+
+### <a href="https://github.com/g33kio/vue-mousetrap" target="_blank">Mousetrap</a>
+
+To capture and react to user keypresses
+
+### <a href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a>
+
+To make things look nice in a way that makes sense.
