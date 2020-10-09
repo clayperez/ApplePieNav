@@ -61,6 +61,12 @@ Vue component parameters:
 | **buffer** | How much space to put between the edge of the mask and the zone labels in pixels. | 150 |
 | **margin** | How much of a margin to leave around the inside of the main window so the pie doesn't render too close to the outside which would hide some options. | 300 |
 
+# Features
+
+- Prevents the pie from starting too close to the window's margin if the mouse is within said margin. This is good because it prevents options from being hidden.
+- Automatically limits the number of options passed in to between 3 and 9 because, really... What do you need a pie nav for fewer or more at one time?
+- Allows as many different pie navs to be loaded as you wish. Just associate them with different trigger keys and you can have multiple hyper menus available in your system.
+
 # Dependencies
 
 ### <a href="https://github.com/g33kio/vue-mousetrap" target="_blank">Mousetrap</a>
@@ -70,3 +76,9 @@ To capture and react to user keypresses
 ### <a href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a>
 
 To make things look nice in a way that makes sense.
+
+# Inspiration
+
+### <a href="https://www.blender.org/" target="_blank">Blender</a>
+
+I started building 3D scenes with Blender and had my mind blown by their implementation of rapid navigation with their **pie menus**. I honestly believe it's one of the fastest ways to navigate to different pages in a user interface because it allows you to simply gesture with your trackpad or mouse which is far simpler than hunting down a small-target menu item to get to your destination.
