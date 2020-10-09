@@ -1,0 +1,32 @@
+{
+  "name": "applepienav",
+  "version": "1.0.0",
+  "description": "A pie navigation component for VueJS that gives you rapid navigation capability.",
+  "main": "ApplePie.vue",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clayperez/ApplePieNav.git"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "navigation",
+    "component",
+    "vue2",
+    "nav",
+    "gesture"
+  ],
+  "author": "Carlos Perez <clayperez@gmail.com> (https://ccpn.webflow.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/clayperez/ApplePieNav/issues"
+  },
+  "homepage": "https://github.com/clayperez/ApplePieNav#readme",
+  "dependencies": {
+    "tailwindcss": "^1.8.12",
+    "vue-mousetrap": "^1.0.1"
+  }
+}
