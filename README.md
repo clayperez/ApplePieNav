@@ -1,6 +1,6 @@
 # Apple Pie Nav
 
-## A Highly Customizable, easy-to-use, elegant, dropdown component
+## A hyper-quick pie-menu method action system.
 
 Feedback would be much appreciated, questions, suggestions, issues are more than welcome.
 
